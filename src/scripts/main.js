@@ -9,10 +9,10 @@ AOS.init({
 // Typing animation for hero section
 const typingTexts = [
   'Head of Innovation',
-  'Estatístico',
+  'Statistician',
   'Data Scientist',
-  'Líder de Equipes',
-  'Especialista em Analytics'
+  'Team Leader',
+  'Analytics Specialist'
 ];
 
 let currentTextIndex = 0;
@@ -174,7 +174,7 @@ contactForm.addEventListener('submit', async (e) => {
   // Show loading state
   const submitButton = contactForm.querySelector('button[type="submit"]');
   const originalText = submitButton.textContent;
-  submitButton.textContent = 'Enviando...';
+  submitButton.textContent = 'Sending...';
   submitButton.disabled = true;
   
   try {
@@ -184,7 +184,7 @@ contactForm.addEventListener('submit', async (e) => {
     // Show success message
     formMessages.innerHTML = `
       <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded">
-        <strong>Sucesso!</strong> Sua mensagem foi enviada com sucesso. Retornarei em breve!
+        <strong>Success!</strong> Your message has been sent successfully. I'll get back to you soon!
       </div>
     `;
     
@@ -195,7 +195,7 @@ contactForm.addEventListener('submit', async (e) => {
     // Show error message
     formMessages.innerHTML = `
       <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">
-        <strong>Erro!</strong> Ocorreu um erro ao enviar sua mensagem. Tente novamente ou entre em contato através das redes sociais.
+        <strong>Error!</strong> There was an error sending your message. Please try again or contact me through social media.
       </div>
     `;
   } finally {
@@ -326,8 +326,8 @@ document.querySelectorAll('img').forEach(img => {
 
 // Console message for developers
 console.log(`
-🚀 Portfolio de Matheus Duzzi Ribeiro
-📊 Desenvolvido com tecnologias modernas
-💡 Interessado em colaborar? Entre em contato!
+🚀 Matheus Duzzi Ribeiro Portfolio
+📊 Built with modern web technologies
+💡 Interested in collaborating? Get in touch!
 🔗 LinkedIn: https://www.linkedin.com/in/matheusduzziribeiro/
 `);

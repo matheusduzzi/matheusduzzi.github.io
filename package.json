@@ -1,7 +1,7 @@
 {
   "name": "matheus-portfolio",
   "version": "1.0.0",
-  "description": "Modern portfolio website for Matheus Duzzi Ribeiro",
+  "description": "Modern portfolio website for Matheus Duzzi Ribeiro - Head of Innovation & Data Scientist",
   "main": "index.html",
   "scripts": {
     "dev": "vite",
